@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    border: none;
+  }
+  
+  body {
+    max-width: 1920px;
+    margin: auto;
+  }
+  #nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgba(255, 255, 255, 0.9);
+  }
+  ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  .top-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .top-1 b {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: #274c5b;
+  }
+  a {
+    text-decoration: none;
+    color: #274c5b;
+    font-weight: 550;
+    font-size: 15px;
+  }
+  .top-3 {
+    width: 200px;
+    height: 45px;
+    background: #fafafa;
+    border-radius: 36px;
+    position: relative;
+    display: flex;
+  }
+  .top-3 .search {
+    position: absolute;
+    right: 2%;
+  }
+  .none {
+    display: none;
+  }
+  .top-4 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 120px;
+    padding-top: 2px;
+    gap: 5px;
+    height: 45px;
+    border: 1px solid #e0e0e0;
+    border-radius: 33px;
+  }
+  .top-4 p {
+    color: #274c5b;
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 550;
+  }
+  .nav-bar-top-3 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+  }
+  #shop-sec-2 {
+    background-image: url("./images/contactbanner.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .shop-middle {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    color: #274c5b;
+  }
+  .email {
+    background: #ffffff;
+    border-radius: 16px;
+    width: 300px;
+    padding-left: 10px;
+    border: none;
+  }
+  .down-last-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #274c5b;
+    border-radius: 16px;
+    width: 190px;
+    height: 50px;
+    border: none;
+    padding: 15px 20px;
+  }
+  .down-sub {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .down-last {
+    background-image: url("./images/d7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 61%;
+    margin: auto;
+    padding-bottom: 40px;
+    border-radius: 25px;
+    margin-top: 70px;
+      margin-bottom: 30px;
+  }
+  .sub {
+    font-style: normal;
+    font-weight: 800;
+    font-family: "Roboto";
+    font-size: 22px;
+    color: #ffffff;
+    max-width: 146px;
+    padding-bottom: 10px;
+  }
+  .Contact {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #274c5b;
+    font-family: "Roboto";
+  }
+  .info {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #525c60;
+    padding-top: 15px;
+  }
+  .last-last {
+    padding-bottom: 20px;
+  }
+  .get-out {
+    text-align: right;
+    padding-right: 30px;
+    border-right: 1px solid #d5d5d5;
+  }
+  .get-out-2 {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #d5d5d5;
+    padding-right: 30px;
+    justify-content: flex-start;
+  }
+  .whala {
+    display: flex;
+    padding-top: 45px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .same {
+    background: #EFF6F1;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 20px;
+  }
+  #banner {
+    background-image: url("./images/contactb.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: clamp(300px,30vw,400px);
+    border-radius: 16px;
+  }
+  .simply {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    max-width: 684px;
+    padding-top: 8px;
+    color: #525c60;
+    padding-bottom: 10px;
+  }
+  .accredited {
+    font-family: "Roboto", sans-serif;
+    color: #274c5b;
+    font-weight: 700;
+    font-size: 30px;
+    max-width: 443px;
+    padding-top: 8px;
+  }
+  #leave {
+    background-image: url("./images/leave.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 61%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 20px;
+    margin: auto;
+  }
+  .Yellowtail {
+    font-family: "Yellowtail", cursive;
+    color: #68a47f;
+    font-size: 25px;
+  
+    font-style: normal;
+    font-weight: 400;
+  }
+  .leaf {
+    background: #FFFFFF;
+      border-radius: 30px; max-width: 347px; display: flex; flex-direction: column; gap: 10px; justify-content: center; padding: 32px;
+  }
+  .Explore {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    background: #274C5B;
+    margin-top: 50px;
+    border-radius: 10px;
+    gap: 10px;
+    border: none;
+    color: #FFFFFF;
+  }
+  #massege::placeholder {
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+
+  @media screen and (max-width: 1024px) {
+    .none {
+      display: block;
+    }
+    li {
+      display: none;
+    }
+    .accredited {
+        max-width: none;
+    }
+  }
+  @media (max-width: 655px) {
+    .top-3 {
+      display: none;
+    }
+    .top-4 {
+      display: none;
+    }
+    .none {
+      display: block;
+    }
+    .sub {
+      max-width: none;
+      padding-bottom: 20px;
+    }
+    .whala {
+      padding-top: 18px;
+    }
+    #leave {
+        width: 100%;
+    }
+  }
+  @media (max-width: 480px) {
+    .down-last {
+      width: 100%;
+    }
+  }
+  @media (max-width: 960px) {
+    .get-out {
+        border: none;
+        text-align: left;
+        padding-left: 20px;
+      }
+      .get-out-2 {
+        border: none;
+      }
+  }
+  @media (max-width: 400px) {
+    .get-out-2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .leaf {
+        width: 100%;
+    }
+  }
