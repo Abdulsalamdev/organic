@@ -52,9 +52,6 @@ a {
   position: absolute;
   right: 2%;
 }
-.none {
-  display: none;
-}
 .top-4 {
   display: flex;
   align-items: center;
@@ -139,7 +136,7 @@ a {
   background-image: url("./images/Photo1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: clamp(300px,25vw,400px);
+  width: clamp(300px, 25vw, 400px);
   height: 200px;
 }
 .offer {
@@ -147,7 +144,7 @@ a {
   background-image: url("./images/Photo12.png");
   background-repeat: no-repeat;
   background-size: cover;
-  width: clamp(300px,25vw,400px);
+  width: clamp(300px, 25vw, 400px);
   height: 200px;
 }
 .Yellowtail-p {
@@ -576,7 +573,7 @@ a {
   justify-content: center;
   align-items: center;
   padding: 15px 20px;
-  border: 2px solid #274C5B;
+  border: 2px solid #274c5b;
   gap: 10px;
   background: #ffffff;
   border-radius: 20px;
@@ -612,7 +609,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: clamp(300px,25vw,442px);
+  width: clamp(300px, 25vw, 442px);
   height: 380px;
   position: relative;
   border-radius: 30px;
@@ -622,7 +619,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: clamp(300px,25vw,442px);
+  width: clamp(300px, 25vw, 442px);
   height: 380px;
   position: relative;
   border-radius: 30px;
@@ -641,7 +638,7 @@ a {
   padding-left: 30px;
   position: absolute;
   margin-left: 16px;
-  width: clamp(265px,25vw,403px);
+  width: clamp(265px, 25vw, 403px);
   padding-bottom: 32px;
   margin-top: -200px;
   padding-top: 32px;
@@ -659,7 +656,7 @@ a {
   position: absolute;
   margin-top: -190px;
   margin-left: 16px;
-  width: clamp(265px,25vw,403px);
+  width: clamp(265px, 25vw, 403px);
   padding-bottom: 32px;
   padding-top: 32px;
   padding-right: 24px;
@@ -762,11 +759,31 @@ a {
   gap: 20px;
 }
 .same {
-  background: #EFF6F1;
+  background: #eff6f1;
   width: 60px;
   height: 60px;
   border-radius: 50%;
   padding: 20px;
+}
+.out {
+  display: block;
+}
+.show {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  background-color: #f9f8f8;
+  padding: 10px;
+}
+.open {
+  display: none;
+}
+
+.open.shower {
+  display: flex;
+  position: absolute;
+  top: 80px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -822,8 +839,8 @@ a {
 }
 @media (max-width: 400px) {
   .get-out-2 {
-      padding-left: 10px;
-      padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 @media (max-width: 960px) {
@@ -842,4 +859,3 @@ a {
     border: none;
   }
 }
-

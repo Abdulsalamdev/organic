@@ -184,7 +184,26 @@
     font-size: 30px;
     color: #274c5b;
   }
-
+  .out {
+    display: block;
+  }
+  .show {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    background-color: #f9f8f8;
+    padding: 10px;
+  }
+  .open {
+    display: none;
+  }
+  
+  .open.shower {
+    display: flex;
+    position: absolute;
+    top: 80px;
+  }
 
 
 

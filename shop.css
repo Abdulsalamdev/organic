@@ -415,6 +415,26 @@ color: #274C5B;
     max-width: 146px;
     padding-bottom: 10px;
   }
+  .out {
+    display: block;
+  }
+  .show {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    background-color: #f9f8f8;
+    padding: 10px;
+  }
+  .open {
+    display: none;
+  }
+  
+  .open.shower {
+    display: flex;
+    position: absolute;
+    top: 80px;
+  }
   @media (max-width: 480px) {
     .down-last {
       width: 100%;
