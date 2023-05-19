@@ -216,6 +216,9 @@
     position: absolute;
     top: 80px;
   }
+  .hambuger {
+    display: none;
+  }
 
 
 
@@ -247,6 +250,9 @@
     }
     li {
       display: none;
+    }
+    .hambuger {
+      display: block;
     }
   }
   @media (max-width: 655px) {

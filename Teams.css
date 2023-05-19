@@ -196,6 +196,9 @@
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
   }
+  .hambuger {
+    display: none;
+  }
   #Experts-5 {
     background-image: url("./images/boy6.jpg");
     background-size: cover;
@@ -328,6 +331,9 @@
     }
     li {
       display: none;
+    }
+    .hambuger {
+      display: block;
     }
   }
   @media (max-width: 655px) {

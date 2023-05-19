@@ -395,6 +395,9 @@ padding: 15px 35px;
     position: absolute;
     top: 80px;
   }
+  .hambuger {
+    display: none;
+  }
   
   @media screen and (max-width: 1024px) {
     .none {
@@ -402,6 +405,9 @@ padding: 15px 35px;
     }
     li {
       display: none;
+    }
+    .hambuger {
+      display: block;
     }
   }
   @media (max-width: 655px) {

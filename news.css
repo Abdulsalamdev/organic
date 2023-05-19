@@ -10,6 +10,9 @@
     max-width: 1920px;
     margin: auto;
   }
+  .hambuger {
+    display: none;
+  }
   #nav-bar {
     display: flex;
     align-items: center;
@@ -324,6 +327,9 @@
     }
     li {
       display: none;
+    }
+    .hambuger {
+      display: block;
     }
   }
   @media (max-width: 655px) {

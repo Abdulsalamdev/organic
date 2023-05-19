@@ -435,6 +435,9 @@ color: #274C5B;
     position: absolute;
     top: 80px;
   }
+  .hambuger {
+    display: none;
+  }
   @media (max-width: 480px) {
     .down-last {
       width: 100%;
@@ -463,6 +466,9 @@ color: #274C5B;
     }
     li {
       display: none;
+    }
+    .hambuger {
+      display: block;
     }
   }
   @media (max-width: 655px) {

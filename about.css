@@ -332,6 +332,9 @@ width: 150px;
   position: absolute;
   top: 80px;
 }
+.hambuger {
+  display: none;
+}
 @media (max-width: 960px) {
   .get-out {
       border: none;
@@ -355,6 +358,9 @@ width: 150px;
   }
   li {
     display: none;
+  }
+  .hambuger {
+    display: block;
   }
 }
 @media (max-width: 655px) {

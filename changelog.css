@@ -204,7 +204,9 @@
     position: absolute;
     top: 80px;
   }
-
+  .hambuger {
+    display: none;
+  }
 
 
 
@@ -241,6 +243,9 @@
     }
     .sub {
         max-width: none;
+    }
+    .hambuger {
+      display: block;
     }
   }
   @media (max-width: 655px) {

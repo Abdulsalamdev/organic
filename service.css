@@ -216,6 +216,9 @@ a {
   position: absolute;
   top: 80px;
 }
+.hambuger {
+  display: none;
+}
 
 @media screen and (max-width: 1024px) {
   .none {
@@ -223,6 +226,9 @@ a {
   }
   li {
     display: none;
+  }
+  .hambuger {
+    display: block;
   }
 }
 @media (max-width: 655px) {
